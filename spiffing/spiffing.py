@@ -71,7 +71,5 @@ class Spiffing(object):
         """
         pro = self.css
         for r in Spiffing.replacements:
-            if r.english == "transparency":
-                print r.matcher, '|', r.english, '|', r.american, '|', r.ending
             pro = re.sub(r.matcher, r.american + r.ending, pro, flags=re.I)
         return pro

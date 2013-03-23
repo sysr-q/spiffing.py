@@ -10,7 +10,7 @@ def long_desc():
 
 kw = {
     "name": "spiffing",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The gentleman's CSS pre-processor, to convert correct English CSS to American English CSS.",
     "long_description": long_desc(),
     "url": "https://github.com/plausibility/spiffing.py",
@@ -19,7 +19,7 @@ kw = {
     "license": "MIT",
     "packages": ["spiffing"],
     "zip_safe": False,
-    "keywords": "css markup english jam",
+    "keywords": "css preprocessor markup english jam",
     "classifiers": [
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",

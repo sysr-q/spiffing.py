@@ -10,8 +10,8 @@ def long_desc():
 
 kw = {
     "name": "spiffing",
-    "version": "1.0.1",
-    "description": "The gentleman's CSS pre-processor, to convert correct English CSS to American English CSS.",
+    "version": "1.1.0",
+    "description": "The gentleman's CSS pre-processor, to convert correct English CSS to American English CSS (and the reverse).",
     "long_description": long_desc(),
     "url": "https://github.com/plausibility/spiffing.py",
     "author": "plausibility",

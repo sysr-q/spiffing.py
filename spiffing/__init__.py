@@ -13,5 +13,9 @@ body {
     font-weight: bold;
     text-transform: capitalize;
 }
+
+It also allows the reverse, as of version 1.1.0+
 """
 from .spiffing import Spiffing
+# What we really want people to use.
+from .spiffing import Monocle
